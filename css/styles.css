@@ -1,0 +1,18 @@
+.gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  list-style-type: none;
+  padding: 0;
+  margin: auto 24px;
+}
+.gallery li {
+  flex-basis: calc((100% - 48px) / 3);
+}
